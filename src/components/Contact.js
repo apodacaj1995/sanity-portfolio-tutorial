@@ -17,9 +17,12 @@ export default function ContactContent() {
     
       return(
         <div className="bg-blue-200">
+                <h1 className="text-5xl flex justify-center cursive pt-4">let's work together!</h1>
+                <h2 className="text-lg text-gray-600 flex justify-center cursive tracking-wide mb-2 pt-2">contact me here or reach-out on one of my socials!</h2>
+
             <div className=" flex justify-center max-h-screen">
             <form onSubmit={sendEmail}>
-                    <div className="row pt-16 pb-20 mx-auto" >
+                    <div className="row  pb-20 mx-auto" >
                         <div >
                             <input className="w-96 cursive tracking-wider pt-2 pb-2 pl-2 rounded-lg" type="text"  placeholder="your name" name="name"/>
                         </div>

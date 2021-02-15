@@ -2,6 +2,7 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 import {SocialIcon } from "react-social-icons";
 import jackieCodesLogo from "../jackieCodesLogo.png";
+
 export default function NavBar() {
     return (
         <header className="bg-blue-500">
@@ -19,13 +20,13 @@ export default function NavBar() {
                     <NavLink to ="/post" 
                     activeClassName="text-red-100 bg-blue-700"
                     className="inline-flex items-center py-3 px-3 my-6 rounded text-black font-semibold cursive tracking-wider hover:text-white">
-                        blog posts
+                        design projects
                     </NavLink>
 
                     <NavLink to="/project" 
                     activeClassName="text-red-100 bg-blue-700"
                     className="inline-flex items-center py-3 px-3 my-6 rounded text-black font-semibold cursive tracking-wider leading-none hover:text-white">
-                        see my projects
+                        programming projects
                     </NavLink>
 
                     <NavLink to="about" 
@@ -39,6 +40,12 @@ export default function NavBar() {
                     className="inline-flex items-center py-3 px-3 my-6 rounded text-black font-semibold cursive tracking-wider leading-none hover:text-red-300">
                         contact jackie
                     </NavLink>
+
+                    {/* <NavLink to="hi" 
+                    activeClassName="text-red-100 bg-blue-700"
+                    className="inline-flex items-center py-3 px-3 my-6 rounded text-black font-semibold cursive tracking-wider leading-none hover:text-red-300">
+                        test
+                    </NavLink> */}
 
 
                 </nav>
